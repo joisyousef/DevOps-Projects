@@ -16,5 +16,4 @@ A bash script to analyse basic server performance stats.
    chmod +x Server-Stats.sh
    ```
 3. **Execute the script**  
-    `./Server-Stats.sh`
-   This project is part of [roadmap.sh](https://roadmap.sh/projects/server-stats) DevOps projects.
+   `./Server-Stats.sh`
