@@ -22,4 +22,4 @@
 20. Multi-Service Application
 21. Service Discovery
 
-All projects can be found on https://roadmap.sh/projects/github-actions-deployment-workflow
+All projects can be found on https://roadmap.sh/devops/projects
