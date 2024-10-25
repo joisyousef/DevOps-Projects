@@ -9,7 +9,7 @@
 7. Basic DNS Setup
 8. Simple Monitoring
 9. Dummy Systemd Service
-10. Basic Dockerfile
+10. Basic Dockerfile ✅
 11. EC2 Instance
 12. Configuration Management
 13. IaC on DigitalOcean
@@ -22,4 +22,4 @@
 20. Multi-Service Application
 21. Service Discovery
 
-All projects can be found on https://roadmap.sh/devops/projects
+All projects can be found on https://roadmap.sh/projects/basic-dockerfile
