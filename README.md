@@ -1,9 +1,9 @@
 # Roadmap.sh DevOps Projects
 
 1. Server Performance Stats ✅
-2. Log Archive Tool
+2. Log Archive Tool ✅
 3. Nginx Log Analyser
-4. GitHub Pages Deployment
+4. GitHub Pages Deployment ✅
 5. SSH Remote Server Setup
 6. Static Site Server
 7. Basic DNS Setup
@@ -22,4 +22,4 @@
 20. Multi-Service Application
 21. Service Discovery
 
-All projects can be found on https://roadmap.sh/devops/projects
+All projects can be found on https://roadmap.sh/projects/log-archive-tool
