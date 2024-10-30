@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# Define the log file path
 LOG_FILE="log-file.txt"
 
-# Check if the log file exists
 if [[ ! -f "$LOG_FILE" ]]; then
   echo "Log file not found. Please download the log file and place it in the script's directory."
   exit 1

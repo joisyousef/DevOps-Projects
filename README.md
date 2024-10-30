@@ -22,4 +22,4 @@
 20. Multi-Service Application
 21. Service Discovery
 
-All projects can be found on https://roadmap.sh/projects/nginx-log-analyser
+All projects can be found on https://roadmap.sh/devops/projects
