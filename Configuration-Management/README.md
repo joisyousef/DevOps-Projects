@@ -31,12 +31,11 @@ Before you begin, ensure the following are set up:
 ### Steps to Set Up
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/ansible-configuration-management.git
-   cd ansible-configuration-management
-   ```
 
-````
+   ```bash
+   git clone https://github.com/joisyousef/Configuration-Management.git
+   cd Configuration-Management
+   ```
 
 2. **Create the Inventory File**:
    Define the target host in an `inventory.ini` file:
@@ -119,4 +118,7 @@ ansible-playbook -i inventory.ini setup.yml --tags "app"
 ```
 
 ---
-````
+
+```
+
+```
