@@ -118,7 +118,3 @@ ansible-playbook -i inventory.ini setup.yml --tags "app"
 ```
 
 ---
-
-```
-
-```

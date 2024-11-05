@@ -2,7 +2,7 @@
 
 This repository contains projects listed on [roadmap.sh](https://roadmap.sh/) under the DevOps track.
 
-1. [**Server Performance Stats**](https://roadmap.sh/projects/server-stats) here's my [**solution**]()
+1. [**Server Performance Stats**](https://roadmap.sh/projects/server-stats) here's my [**solution**](https://github.com/joisyousef/DevOps-Projects/tree/main/Server-Performance-Stats)
 2. [**Log Archive Tool**](https://roadmap.sh/projects/log-archive-tool) here's my [**solution**]()
 3. [**Nginx Log Analyser**](https://roadmap.sh/projects/nginx-log-analyser) here's my [**solution**]()
 4. [**GitHub Pages Deployment**](https://roadmap.sh/projects/github-actions-deployment-workflow) here's my [**solution**]()
