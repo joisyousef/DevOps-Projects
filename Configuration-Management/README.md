@@ -1,19 +1,21 @@
-````markdown
 # Ansible Configuration Management Project
 
 This project demonstrates how to use **Ansible** for configuration management on a Linux server. The playbook automates the setup of a web server, installs and configures **Nginx**, and uploads a static HTML website.
 
 ## Table of Contents
 
-- [Project Setup](#project-setup)
-- [Inventory Configuration](#inventory-configuration)
-- [Roles](#roles)
-  - [Base Role](#base-role)
-  - [Nginx Role](#nginx-role)
-  - [App Role](#app-role)
-  - [SSH Role](#ssh-role)
-- [Running the Playbook](#running-the-playbook)
-- [Stretch Goal](#stretch-goal)
+- [Ansible Configuration Management Project](#ansible-configuration-management-project)
+  - [Table of Contents](#table-of-contents)
+  - [Project Setup](#project-setup)
+    - [Prerequisites](#prerequisites)
+    - [Steps to Set Up](#steps-to-set-up)
+  - [Roles](#roles)
+    - [Base Role](#base-role)
+    - [Nginx Role](#nginx-role)
+    - [App Role](#app-role)
+    - [SSH Role](#ssh-role)
+  - [Running the Playbook](#running-the-playbook)
+    - [Running Specific Roles](#running-specific-roles)
 
 ## Project Setup
 
@@ -33,6 +35,7 @@ Before you begin, ensure the following are set up:
    git clone https://github.com/yourusername/ansible-configuration-management.git
    cd ansible-configuration-management
    ```
+
 ````
 
 2. **Create the Inventory File**:
@@ -116,3 +119,4 @@ ansible-playbook -i inventory.ini setup.yml --tags "app"
 ```
 
 ---
+````
