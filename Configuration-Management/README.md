@@ -40,10 +40,10 @@ Before you begin, ensure the following are set up:
 2. **Create the Inventory File**:
    Define the target host in an `inventory.ini` file:
 
-   ```ini
+```ini
    [webserver]
    192.168.1.3 ansible_user=yousef
-   ```
+```
 
 3. **Prepare the Tarball**:
    Place your `website.tar.gz` file in the root of this project or specify its location in the playbook.
