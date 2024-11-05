@@ -1,0 +1,19 @@
+---
+- name: Update all packages
+  dnf:
+    name: "*"
+    state: latest
+
+- name: Install useful utilities
+  dnf:
+    name: 
+      - vim
+      - git
+      - curl
+    state: present
+
+- name: Enable and start firewalld
+  service:
+    name: firewalld
+    state: started
+    enabled: true
