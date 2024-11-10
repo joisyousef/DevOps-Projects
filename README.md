@@ -6,7 +6,7 @@ This repository contains projects listed on [roadmap.sh](https://roadmap.sh/) un
 2. [**Log Archive Tool**](https://roadmap.sh/projects/log-archive-tool) here's my [**solution**](https://github.com/joisyousef/DevOps-Projects/tree/main/Log-Archive-Tool)
 3. [**Nginx Log Analyser**](https://roadmap.sh/projects/nginx-log-analyser) here's my [**solution**](https://github.com/joisyousef/DevOps-Projects/tree/main/Nginx-Log-Analyser)
 4. [**GitHub Pages Deployment**](https://roadmap.sh/projects/github-actions-deployment-workflow) here's my [**solution**](https://github.com/joisyousef/DevOps-Projects/tree/main/Github-Deploy-Workflow)
-5. SSH Remote Server Setup
+5. [**SSH Remote Server Setup**](https://roadmap.sh/projects/ssh-remote-server-setup) here's my [**solution**](https://github.com/joisyousef/DevOps-Projects/tree/main/SSH-Remote-Server)
 6. Static Site Server
 7. Basic DNS Setup
 8. Simple Monitoring
