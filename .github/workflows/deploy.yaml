@@ -3,21 +3,21 @@ name: Deploy to Github Pages
 on:
   push:
     paths:
-      - 'index.html'
+    - 'index.html'
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+    - name: Checkout code
       uses: actions/checkout@v3
 
-      - name: Setup Pages
+    - name: Setup Pages
       uses: actions/setup-pages@v2
 
-      - name: Deploy
-      runs: |
+    - name: Deploy
+      run: |
         echo "Deploying website"
         mkdir -p ./public
         cp index.html ./public/index.html
