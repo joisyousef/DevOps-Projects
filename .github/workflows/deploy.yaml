@@ -8,22 +8,22 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
 
     steps:
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v3
 
     - name: Setup Pages
-      uses: actions/setup-pages@v2
+      uses: actions/configure-pages@v3
 
-    - name: Deploy
-      run: |
-        echo "Deploying website"
-        mkdir -p ./public
-        cp index.html ./public/index.html
-        echo "<meta http-equiv='refresh' content='0; url=./public/index.html'>" > ./public/404.html
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        git add ./public
-        git commit -m "Deploy website"
-        git push origin gh-pages
+    - name: Upload index.html
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: 'Github-Deploy-Workflow/index.html'
+
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v2
