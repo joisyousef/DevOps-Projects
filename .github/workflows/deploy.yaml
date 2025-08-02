@@ -1,29 +1,31 @@
-name: Deploy to Github Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
+    branches: [ main ]
     paths:
     - 'Github-Deploy-Workflow/**'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
-    - name: Setup Pages
-      uses: actions/configure-pages@v3
+    - name: Setup GitHub Pages
+      uses: actions/configure-pages@v4
 
-    - name: Upload index.html
-      uses: actions/upload-pages-artifact@v2
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
       with:
         path: 'Github-Deploy-Workflow/index.html'
 
     - name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v2
+      uses: actions/deploy-pages@v4
